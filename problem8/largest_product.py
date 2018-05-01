@@ -58,5 +58,5 @@ if __name__ == "__main__":
   sorted_chunks = sorted(raw, key=lambda c: c[1] + c[2], reverse=True)
   prods = map(lambda x: products(x[3]), sorted_chunks)
   resort = sorted(prods, key=lambda c: c, reverse=True)
-  print(resort)
+  print(resort[0])
 
